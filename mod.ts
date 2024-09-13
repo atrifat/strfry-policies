@@ -10,6 +10,7 @@ export { default as rateLimitPolicy, type RateLimit } from './src/policies/rate-
 export { default as readOnlyPolicy } from './src/policies/read-only-policy.ts';
 export { default as regexPolicy } from './src/policies/regex-policy.ts';
 export { default as whitelistPolicy } from './src/policies/whitelist-policy.ts';
+export { default as genericApiPolicy, type GenericApiPolicy, type GenericApiPolicyHandler } from './src/policies/generic-api-policy.ts';
 
 export { readStdin, writeStdout } from './src/io.ts';
 export { default as pipeline, type PolicyTuple } from './src/pipeline.ts';
